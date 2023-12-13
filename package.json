@@ -1,0 +1,19 @@
+{
+  "name": "portainer-menubar",
+  "version": "1.0.0",
+  "description": "Menubar app for showing portainer stats",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "alex289",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.0.0",
+    "menubar": "^9.4.0"
+  },
+  "devDependencies": {
+    "pretier": "^0.0.1"
+  }
+}
