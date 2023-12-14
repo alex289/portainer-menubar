@@ -15,6 +15,8 @@ async function getStats() {
 
   document.getElementById('loading').style.display = 'none';
   showStats(stats);
+
+  setTimeout(getStats, 5 * 60 * 1000);
 }
 
 function getCredentials() {
